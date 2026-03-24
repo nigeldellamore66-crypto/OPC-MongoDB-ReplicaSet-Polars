@@ -77,8 +77,8 @@ Prérequis : MongoDB installé localement
 
 **1. Importer les données**
 
-Importer `listings_Paris.csv` via MongoDB Compass dans la collection
-`noscites.logements`, puis importer Lyon via le script Python :
+Importer `listings_Paris.csv` ( https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/922_Data+Engineer/922_P7/listings_Paris+(1).csv) via MongoDB Compass dans la collection
+`noscites.logements`, puis importer Lyon ( https://drive.google.com/file/d/14TfkpdvTV_PNv_5wkaA-CgoYK0Tjyn-X/view) via le script Python :
 ```bash
 pip install pymongo
 python import_simple.py
